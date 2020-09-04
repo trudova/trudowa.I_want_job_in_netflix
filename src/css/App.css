@@ -1,0 +1,50 @@
+:root{
+    --main-red: rgba(211, 9,19);
+    --main-dark: rgba(20, 20,20);
+    --main-deep-dark:rgba(0, 0,0);
+    --main-grey:rgba(153, 153,153);
+    --main-red-hover: #e50914;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Helvetica'; 
+   -webkit-font-smoothing:antialiased;
+   background: var(--main-dark);
+   color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.signin-btn{
+    right: 0;
+    margin: 1.125 3% 0;
+    padding: 0.437rem 1.0625rem;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0.1875rem;
+    font-size: 1rem;
+    background: var(--main-red);
+    position: absolute;
+    translate: transform(-50% -50% );
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+}
+.signin-btn:hover{
+    background: var(--main-red-hover);
+}
+.logo{
+    width: 10rem;
+    height:3.5rem ;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50% -50%);
+}
+.header-top{
+    position: relative;
+    height: 10rem;
+}
